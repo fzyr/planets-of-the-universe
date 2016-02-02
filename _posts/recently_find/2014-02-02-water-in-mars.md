@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news_artical
 title: R_Curiosity rover makes big water discovery in mars dirt
 meta: R_Water found on mars
 source: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html

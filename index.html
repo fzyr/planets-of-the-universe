@@ -3,3 +3,13 @@ layout: default
 ---
   <h1> earth and sun</h1>
   <p>lots of planets in the universe!</p>
+
+<h1>types of planets</h1>
+<ol>
+  {% for planet in site.data.planet_types %}
+  <li>
+    <p1>{{planet.title}}</p1>
+    <p1>{{planet.content | markdownify}}</p1>
+  </li>
+  {% endfor %}
+</ol>
