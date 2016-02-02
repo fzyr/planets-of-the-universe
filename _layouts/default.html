@@ -8,15 +8,17 @@
 <body>
   <header>
     <h1>planets of the universe</h1>
-    <nav>
-      <ul>
-        <li><a href="{{site.baseurl}}/">home</a></li>
-        <li><a href="{{site.baseurl}}/news.html">news</a></li>
-    </ul>
-  </nav>
+    {% include nav.html%}
 </header>
 
 {{content}}
 
+
+
+<footer>
+  {% include nav.html%}
+  <p>© planets of the universe</p>
+
+</footer>
 </body>
 </html>
