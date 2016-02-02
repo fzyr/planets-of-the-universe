@@ -1,0 +1,7 @@
+<ol>
+  {% for planet in site.pages %}
+  {% if planet.type == include.type %}
+<li>{{planet.title}}</li>
+  {% endif %}
+{% endfor %}
+</ol>
